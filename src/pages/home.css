@@ -1,0 +1,118 @@
+.photo {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.box {
+  background-color: whitesmoke;
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 46px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+.task-box {
+  position: relative;
+  height: 60px;
+  width: 390px;
+  right: 38px;
+}
+.task-box input {
+  height: 90%;
+  width: 70%;
+  border: none;
+  background: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 0 60px 0 20px;
+  outline: none;
+  font-style: oblique;
+}
+.task-box .add-btn {
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-57%);
+  background: rgb(245, 190, 190);
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.task-box .cancel-btn {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.quote {
+  text-align: justify;
+  text-justify: inter-word;
+  /* width: 95%; */
+}
+.scroll-quote {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 95%;
+}
+.list {
+  width: 120px;
+  background-color: whitesmoke;
+  border: none;
+  /* color: #ccc; */
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 60px;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 35px;
+  margin-right: 18px;
+}
+.button-complete,
+.button-edit,
+.button-delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  border-radius: 50%;
+}
+.button-complete {
+  color: #ff6c6c;
+  margin-right: 5px;
+}
+.button-edit {
+  color: #e2d029;
+  margin-right: 5px;
+}
+.button-delete {
+  color: lightseagreen;
+}
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
